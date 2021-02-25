@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <<meta  http-equiv="content-type" content="text/html"; charset="UTF-8"/>
+    <title>表格</title>
+</head>
+<body>
+    <!--创建一个两行三列的表格 -->
+    <table border="6" width="500px" bgcolor="#f2f2f2" cellspacing="0" cellpadding="0px" align="
+    center">
+        <caption>表格开头</caption>
+        <thead>
+            <tr bgcolor="#d8e4bc" align="center" valign="middle" >
+                <th colspan="2" bgcolor="#b8cce4">开头加一</th>
+                <th>一行一列</th>
+                <th>一行二列</th>
+                <th>一行三列</th>
+            </tr>
+        </thead>
+        <tbody align="center" valign="middle">
+            <tr bgcolor="#d8e4bc" align="center" valign="middle">
+                <th bgcolor="#b8cce4" rowspan="2">开头加一</th>
+                <td>一行上半</td>
+                <td>一行下半</td>
+                <td rowspan="2">一行二列</td>
+                <td>一行三列</td>
+            </tr><tr bgcolor="#d8e4bc" align="center" valign="middle">
+                <td>一行上半</td>
+                <td>一行下半</td>
+                <td>一行三列</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr align="center" valign="middle">
+                <th height="30px" bgcolor="#b8cce4">开头加一</th>
+                <td>二行一列</td>
+                <td>一行一列</td>
+                <td>二行二列</td>
+                <td>二行三列</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

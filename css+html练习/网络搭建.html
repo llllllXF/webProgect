@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chttp-equiv="content-type" content="text/html"; charset="UTF-8">
+    <title>网络搭建</title>
+</head>
+<body>
+    <!--div标签-->
+    <div><img src="u=2047025436,3920829728&fm=26&gp=0.jpg">图片1</div>
+    <div><img src="src=http___attach.bbs.miui.com_forum_201304_11_130724xpp1t8cduuq8d1u4.jpg&refer=http___attach.bbs.miui.jpeg">图片2</div>
+    <div><img src="u=1978155667,2728890506&fm=26&gp=0.jpg">图片3</div>
+    <!--span-->
+    <span><img src="u=2047025436,3920829728&fm=26&gp=0.jpg">图片1</span>
+    <span><img src="src=http___attach.bbs.miui.com_forum_201304_11_130724xpp1t8cduuq8d1u4.jpg&refer=http___attach.bbs.miui.jpeg">图片2</span>
+    <span><img src="u=1978155667,2728890506&fm=26&gp=0.jpg">图片3</span>
+    <!--标签嵌套规则-->
+    <!--块级元素可包含行内某些块级元素-->
+    <div><h1><a href=""/> </h1></div>
+    <!--行内元素不能包含块级元素，只能包含其他行内元素-->
+    <a href=""><h1><div></div></a><!--错误-->
+    <span><em></em></span><!--正确-->
+    <!--块级元素不能放在<p>标签内-->
+    <p><div></div><h1></h1></p><!--错误-->
+    <!--特殊块级元素只能包含级行内元素，不能包含块级元素
+    例如：h1.h2.h3,h4,h5,h6,p,dt-->
+    <!--块级元素与块级元素并列，行内元素与行内元素并列-->
+    <div><h1></h1><p></p></div><!--正确-->
+    <div><span></span><a href=""></a> </div><!--正确-->
+    <div><h1></h1><span></span></div><!--错误-->
+</body>
+</html>

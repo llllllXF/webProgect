@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var str = "";//1  2
+    // for (var i = 1; i <= 100; i++) {
+    //     str = str + i + "  ";
+    //     if (i % 9 === 0) {
+    //         console.log(str);
+    //         str = ""
+    //     }
+    // }
+
+    // var str = ""
+    // for (var i = 1; i <= 5; i++) {
+    //     for (var a = 1; a <= i; a++) {
+    //         str = str + "*" + " ";
+    //     }
+    //     console.log(str);
+    //     str = "";
+    // }
+
+    /*
+             *
+           * * *
+         * * * * *
+     */
+    //console.log("  *");
+    // console.log(" ***");
+    //console.log("*****");
+
+    /* var str = "";
+     var count=5;
+     for (var i = 1; i <= count; i++) {
+         for (var a = count-1; a >= i; a--) {
+             str = str + " "
+         }
+         for (var b = 1; b <= (i - 1) * 2 + 1; b++) {
+             str = str + "*"
+
+         }
+         console.log(str);
+         str = ""
+     }*/
+
+    var str = "";
+    for (var i = 1; i <= 5; i++) {
+        for (var a = 5; a >= 5 - i; a--) {
+            str = str + " ";
+        }
+        for (var b = 9; b >= (2 * i) - 1; b--) {
+            str = str + "*";
+        }
+        console.log(str);
+        str = ""
+    }
+</script>
+
+</body>
+</html>
