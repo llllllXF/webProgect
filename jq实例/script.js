@@ -5,11 +5,17 @@ $(document).ready(function () {
             .siblings()
             .css({ 'opacity': '0' })
     });
+    //
+    //
+    ///
+    ///
+    ///
+
     //var alinks = $('a');
     //for (var i = alinks.length - 1; i >= 0; i--){
         //alinks[i].style.background ='red';
         //alinks[i].style.border='5px solid yellow';
-        //alinks[i].style.color='#fff';
+        //alinks[i].style.color='#ddd';
     //    alinks.eq(i).css({
     //        'background':'red', 
     //        'border':'5px solid yellow',
